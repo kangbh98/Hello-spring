@@ -2,6 +2,7 @@ package Hello.hellospring;
 
 import Hello.hellospring.Service.MemberService;
 import Hello.hellospring.repository.JpaMemberRepository;
+import Hello.hellospring.repository.MemberRepository;
 import jakarta.persistence.EntityManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
